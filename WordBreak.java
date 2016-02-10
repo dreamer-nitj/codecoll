@@ -1,5 +1,3 @@
-package com.google.freebuilder.tutorial;
-
 import java.util.Arrays;
 import java.util.HashSet;
 
