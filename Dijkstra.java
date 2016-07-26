@@ -64,7 +64,6 @@ public class Dijkstra {
     }
 
     public static void main(String[] args) throws Exception {
-        URL princetonAlgoCode = new URL("http://algs4.cs.princeton.edu/44sp/tinyEWDAG.txt");
         InputStream inputStream = System.in;
         Scanner scanner = new Scanner(inputStream);
         int numOfVertex = scanner.nextInt(), numOfEdges = scanner.nextInt();
