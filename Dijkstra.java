@@ -4,9 +4,6 @@ import java.util.Scanner;
 import java.util.Stack;
 
 /**
- * This method is my sample implementation of weighted
- * graph.
- *
  * @author ankitk
  */
 public class Dijkstra {
@@ -77,9 +74,14 @@ public class Dijkstra {
         dijkstra.printPath(dijkstra.dijkstra(graph, 0), 0, 221);
     }
 
+    /**
+     * This class is my sample implementation of weighted graph.
+     */
     private static class WeightedDirectedGraph {
         class Edge {
+            // the destination vertex
             Integer vertex;
+            // the edge weight for edge from source to destination vertex
             float weight;
 
             public Edge(int vertex, float weight) {
